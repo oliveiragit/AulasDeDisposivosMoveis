@@ -26,7 +26,7 @@ namespace LocalDB.View.Aluno
             BindingContext = vmAluno;
             base.OnAppearing();
         }
-        private void onNovo(object sender, EventArgs args)
+        private void OnNovo(object sender, EventArgs args)
         {
             Navigation.PushAsync(new NovoAlunoView());
         }
